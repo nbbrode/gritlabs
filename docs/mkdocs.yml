@@ -48,6 +48,6 @@ docs_dir: pages        # <— tell MkDocs where to look
   
 copyright: "© 2025 Grit Labs"
 
-repo_url: https://github.com/yourusername/your-repo
+repo_url: https://github.com/nbbrode/gritlabs
 repo_name: GitHub
 
