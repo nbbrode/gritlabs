@@ -4,7 +4,7 @@
 
 This repository is the authoritative source for Grit Labs specifications and documentation. It defines the structure, language, and organizational patterns used to coordinate development across documents, sprints, and systems.
 
-
+The live documentation site is available at **[gritlabs.net](https://www.gritlabs.net)**.
 
 ## 📂 Repository Layout
 
