@@ -307,7 +307,7 @@ Inside each sprint folder, the following subfolders are conventionally used:
 
 
 
-GSL documents (especially case-studies) may also appear directly in the root of the sprint folder, numbered sequentially (e.g., `01. Using BuildKit to Speed Up Bilds in Docker.md`, `02. Global Exception Handling & Basic Middlewares.md`).
+GSL documents (especially case-studies) may also appear directly in the root of the sprint folder, numbered sequentially (e.g., `01. Using BuildKit to Speed Up Builds in Docker.md`, `02. Global Exception Handling & Basic Middlewares.md`).
 
 This environment provides a lightweight alternative to external project management tools and is designed for version control, traceability, and human readability.
 
