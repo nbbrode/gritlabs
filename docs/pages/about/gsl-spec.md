@@ -478,15 +478,15 @@ Principles do not adjust on their own—they must be revised deliberately when t
 
 These workflows are distinguished by how they interpret structure and how they anchor their verification:
 
-1. **Case-Study Workflow**  
-   - Driven by `<gsl-problem>` → `<gsl-analysis>` → `<gsl-design>` → `<gsl-implementation>`
-   - Tests are implicit: implemented and verified through automated (often unit) tests
-   - Primarily serves engineers and internal teams
+#### Case-Study Workflow  
+- Driven by `<gsl-problem>` → `<gsl-analysis>` → `<gsl-design>` → `<gsl-implementation>`
+- Tests are implicit: implemented and verified through automated (often unit) tests
+- Primarily serves engineers and internal teams
 
-2. **Request Workflow**  
-   - Driven by `<gsl-product>` → `<gsl-feature>` → `<gsl-use-case>` → (via `<gsl-user-story>`, `<gsl-acceptance-criteria>`, or `<gsl-scenario>`) with structured `<gsl-test-case>` elements. 
-   - Tests are explicit: documented and structured for Feature Requester validation
-   - Primarily serves Feature Requesters, QA, and cross-functional teams
+#### Request Workflow  
+- Driven by `<gsl-product>` → `<gsl-feature>` → `<gsl-use-case>` → (via `<gsl-user-story>`, `<gsl-acceptance-criteria>`, or `<gsl-scenario>`) with structured `<gsl-test-case>` elements. 
+- Tests are explicit: documented and structured for Feature Requester validation
+- Primarily serves Feature Requesters, QA, and cross-functional teams
 
 As of this version, GSL now supports **two structured document types**:
 - `case-study` — for internal, exploratory, or lifecycle-driven development
