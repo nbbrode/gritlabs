@@ -1,0 +1,53 @@
+site_name: Grit Labs         # title shown in the header
+
+theme:
+  name: material                 # use the Material for MkDocs theme
+  icon:
+    repo: fontawesome/brands/github
+  palette:                       # light & dark colour schemes
+    - scheme: default            # ── light mode ──
+      primary: indigo
+      accent: indigo
+    - scheme: slate              # ── dark mode ──
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.path    # ← enables breadcrumb navigation
+
+plugins:
+  - search                       # built-in Lunr.js search
+
+# Optional: enable a few nice Markdown features
+markdown_extensions:
+  - admonition                   # ::: note / !!! warning blocks
+  - codehilite
+  
+nav:                             # make your own nav order
+  - Home: index.md
+  - About Grit Labs:
+      - An Interface Perspective: about/interface-perspective.md
+      - A Minimalist PM System: about/minimalist-pm.md
+      - GSL Specification (Version 1.0): about/gsl-spec.md
+      
+extra:
+  generator: false          # ← hides the “Made with …” line
+  
+extra_css:                  #  center copyright
+  - _static/extra.css?v=20250515
+extra_javascript:
+  - _static/open-repo-in-new-tab.js
+  - _static/control-scrollspy-nav.js
+
+
+  
+docs_dir: pages        # <— tell MkDocs where to look
+  
+copyright: "© 2025 Grit Labs"
+
+repo_url: https://github.com/yourusername/your-repo
+repo_name: GitHub
+

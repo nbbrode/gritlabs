@@ -1,0 +1,26 @@
+.md-footer-meta__inner {
+  justify-content: center !important;
+  text-align: center !important;       /* ensure inline text is centered */
+  flex-direction: column !important;   /* stack children vertically if needed */
+}
+
+.md-footer-meta__inner > * {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* ─── Content Cleanup: Remove H1, Tighten H2 ─────────────────────────── */
+.md-content__inner.md-typeset > h1:first-of-type {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.md-content__inner.md-typeset > h2:first-of-type {
+  margin-top: 0 !important;
+}
+
+.md-main__inner {
+  margin-top: 2px !important;
+  padding-top: 2px !important;
+}
